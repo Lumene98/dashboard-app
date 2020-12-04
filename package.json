@@ -1,0 +1,60 @@
+{
+  "name": "dashboard-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cubejs-client/core": "^0.23.14",
+    "@cubejs-client/react": "^0.23.14",
+    "@date-io/date-fns": "1.x",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "date-fns": "^2.16.1",
+    "json-loader": "^0.5.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-map-gl": "^5.2.10",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "recharts": "^1.8.5",
+    "transform-loader": "^0.2.4",
+    "web-vitals": "^0.2.4",
+    "webworkify-webpack": "1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "cubejsTemplates": {
+    "create-react-app": "0.0.1",
+    "react-material-static": "0.0.1",
+    "recharts-charts": "0.0.1",
+    "material-tables": "0.0.1",
+    "react-credentials": "0.0.1"
+  }
+}
